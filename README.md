@@ -3,8 +3,7 @@
 Final project for the Building AI course
 
 ## Summary
-
-"What should I have for dinner" is always a big question for everyone. Picking among favorite food is hard and balance the nutrients value of everyday meal is even more difficult. So this AI project would be about taking the preference of the users and nutrient value of the food and suggest a healthy meal. 
+Picking among favorite food is hard and balance the nutrients value of everyday meal is even more difficult. So this AI project would be about taking the preference of the users and nutrient value of the food and suggest a healthy meal. 
 
 ## Background
 
