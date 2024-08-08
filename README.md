@@ -1,29 +1,33 @@
-# Next Meal Recommendation
+# Stock Price Prediction
 Final project for the Building AI course
 
-## Summary
-Picking among favorite food is hard and balance the nutrients value of everyday meal is even more difficult. So this AI project would be about taking the preference of the users and nutrient value of the food and suggest a healthy meal. 
+## Introduction to Stock Price prediction
+Stock price prediction is a crucial aspect of financial markets, aiming to forecast the future prices of stocks. Accurate predictions can help investors make informed decisions, potentially leading to profitable investments. The process involves analyzing historical data, market trends, and various external factors that might influence stock prices.
 
-## Background
+## Key Concepts and Techniques
 
-Food is one of the one of the most important thing in people life. It is the source of energy, nutrients for any living creature to sustain and growth. But people only eats food that suits their preference and it has to be easy to obtain since spending 10 hours to cook something is not suitable for everyone. But tasty and simple to obtain may not be a good choice when it comes to balance diet, so most people will neglect one or two categories (nutrients probably will be the least importance) when it comes to food. By using AI to understand the preference of the users and generate a list of dishes is probably possible and filter it again based on the nutrients value will give a healthy and tasty option for every meal.
+1. Time Series Analysis:
+      * ARIMA (AutoRegressive Integrated Moving Average): This statistical method models time series data to understand and predict future points. It combines autoregression, differencing, and moving averages to capture patterns in the data.
+2. Machine Learning Models:
+      * Linear Regression: A basic model that predicts stock prices based on the linear relationship between the dependent variable (stock price) and one or more independent variables (predictors).
+      * Decision Trees and Random Forests: These models split the data into branches to make predictions. Random forests, an ensemble method, combine multiple decision trees to improve accuracy.
+      * Neural Networks: These models, especially deep learning networks, can capture complex patterns in large datasets. Recurrent Neural Networks (RNNs) and Long Short-Term Memory (LSTM) networks are particularly useful for time series data.
+3. Sentiment Analysis:
+      * Natural Language Processing (NLP): Techniques like sentiment analysis analyze text data from news articles, social media, and financial reports to gauge market sentiment. Positive or negative sentiments can influence stock prices.
+4. Technical Indicators:
+      * Moving Averages: These smooth out price data to identify trends over a specific period.
+      * Relative Strength Index (RSI): This momentum oscillator measures the speed and change of price movements, helping to identify overbought or oversold conditions.
+      * Bollinger Bands: These volatility bands are plotted above and below a moving average, indicating potential overbought or oversold conditions.
 
-## How is it used?
+## Challenges and Considerations
 
-It probably is a solution for everyone, especially someone with limited time to consider and cooking their own meal. Users can use the suggestion as ease or change it to suit their preference even more, and if cooking is a problem, ordering the suggestion food is also a pretty good idea. Users must take into account that AI is not perfect and the suggestion may not be perfectly balance in nutrients or suit your preference.
+  * Market Volatility: Stock prices are influenced by numerous factors, including economic indicators, political events, and investor behavior, making predictions challenging.
+  * Data Quality: Accurate predictions require high-quality, up-to-date data. Incomplete or noisy data can lead to incorrect predictions.
+  * Model Selection: Choosing the right model is crucial. Simple models might not capture complex patterns, while complex models might overfit the data.
 
 
-## Data sources and AI methods
+## Applications
 
-Data source: The data will be input by users when starting to use the service. It is also possible to import such data from food delivery service used by the user. The information about the nutrients value of each dish can be obtain through service like ReciPal API or Edamam Nutrition Analysis API. The recommendation balance diet can be obtain through Edamam Diet Recommendations API. 
-AI Methods: since nutrients value and taste can be categories and turn to numerical value, Linear regression and Logistics regression could be enough but using neural network may give even better result.
-## Challenges
-
-Each dish has a unique taste, the preference of users may result in incorrect suggestion since it will taste differently when cook by different person. Another challenge is that food with necessary nutrients may not fit in the user's preference at all, for example a kid only likes fastfood and hate vegetable, it would be impossible to suggest a balance diet in this case. 
-## What next?
-
-Probably someone with enough time to plan the whole thing, build a model, and test it out.
-
-## Acknowledgments
-* Thanks the [Elements of AI](https://www.elementsofai.com/) Team for the knowledge and reason to think about this project :)
-* The idea mentions some API service which probably have no problem with copyright :)
+  * Investment Strategies: Predictive models can inform buy, hold, or sell decisions.
+  * Risk Management: Understanding potential future price movements helps in managing investment risks.
+  * Algorithmic Trading: Automated trading systems use predictive models to execute trades based on predefined criteria.
